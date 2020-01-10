@@ -12,17 +12,6 @@
   ],
   "plugins": [
     ["@babel/plugin-proposal-class-properties"],
-    ["@babel/proposal-object-rest-spread", false, "transform-rest-spread"],
-    [
-      "module-resolver",
-      {
-        "root": ["./"],
-        "alias": {
-          "prisma": "./server/prisma",
-          "models": "./server/models",
-          "config": "./server/config"
-        }
-      }
-    ]
+    ["@babel/proposal-object-rest-spread", false, "transform-rest-spread"]
   ]
 }
